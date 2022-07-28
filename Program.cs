@@ -33,3 +33,6 @@ void PrintArray(string[] array)
 }
 
 string [] array = {"hello","world","2","12","(-;","UKRAINE","UK","-1","Nicolas Cage"};
+int x = arrayLine(array);
+string[] resultArray = FillArray(array, x);
+PrintArray(resultArray);
